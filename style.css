@@ -1,0 +1,59 @@
+body {
+  background-image: url("img/bg.jfif");
+}
+
+div {
+  position: relative;
+  text-align: center;
+}
+canvas {
+  display: block;
+  margin: auto;
+}
+h1 {
+  padding: 150px 80px 0px 80px;
+  /* border-radius: 50%; */
+  background-image: url("img/crying.gif");
+  color: rgb(243, 243, 243);
+  text-shadow: 1px 1px 2px red, 0 0 1em rgb(236, 22, 22),
+    0 0 0.2em rgb(255, 102, 0);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 2s ease-in 0.5s;
+  text-align: center;
+  font-family: "Lato", Courier, monospace;
+}
+/* img {
+  padding: 100px; border-radius: 50%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 5s ease-in 5s;
+} */
+h2 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* transition: 2s ease; */
+  /* text-align: center; */
+  font-family: "Lato Light", Courier, monospace;
+}
+h3 {
+  position: absolute;
+  color: aliceblue;
+  left: 50%;
+  bottom: -1%;
+  transform: translate(-50%, -50%);
+  /* transition: 2s ease; */
+  /* text-align: center; */
+  font-family: "Lato ExtraLight", Courier, monospace;
+  font-size: 10px;
+  letter-spacing: 0.2cm;
+}
+.hidden {
+  display: none;
+}
